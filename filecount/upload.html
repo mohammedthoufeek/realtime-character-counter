@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character Statistics</title>
+    <link rel="stylesheet" type="text/css" href="upload.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Realtime Character Counter</div>
+        <ul class="nav-list">
+            <li><a href="../textcount/main.html">Text to count</a></li>
+            <li><a href="./upload.html">File to count</a></li>
+            <li><a href="../speech/read.html">Text to speech</a></li>
+        </ul>
+        <a class="logout-button" href="../index.html">Logout</a>
+    </nav>
+
+    <div class="container">
+        <h1>Character Statistics</h1>
+        <label for="fileInput">Upload a File</label>
+        <input type="file" id="fileInput" accept=".txt , .docx , .xlsx , .pdf" />
+        <div id="results" class="hidden">
+            <p>Total Characters: <span id="charCount">0</span></p>
+            <p>Capital Letters: <span id="capitalCount">0</span></p>
+            <p>Small Letters: <span id="smallCount">0</span></p>
+            <p>Numbers: <span id="numberCount">0</span></p>
+            <p>Special Characters: <span id="specialCount">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

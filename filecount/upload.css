@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(133, 202, 229);
+    font-family: cursive;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-list li a:hover {
+    color: #f0f0f0;
+  }
+  
+  .logout-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #c9302c;
+  }
+  
+  
+  a {
+    
+    background-color: #800040;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  
+  a:hover {
+    background-color: #ff3385;
+  }
+  
+  
+   .container {
+    background-color: lightpink;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  } 
+  
+
+
+.results p {
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.results span {
+    color: #005bb5;
+    font-weight: bold;
+}
+
+
+ input[type="file"] {
+    display: none; /* Hide the default file input button */
+} 
+
+.container label {
+    display: inline-block;
+    background-color: #cf2078;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container label:hover {
+    background-color: #a5527c;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #ff3385;
+}

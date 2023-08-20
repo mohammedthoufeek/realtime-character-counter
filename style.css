@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: cursive;
+    background-color:rgb(133, 202, 229);
+    color: #e3aeae;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.signup-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #c9302c;
+}
+
+
+a {
+  
+    background-color: #800040;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  
+  a:hover {
+    background-color: #ff3385;
+  }
+
+
+/* Style the container */
+.container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: lightpink;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.53);
+}
+
+/* Style the form */
+form {
+    text-align: center;
+}
+
+
+
+/* Style the heading */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+/* Style the submit button */
+.container button[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding:10px;
+    background-color: #800040;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Style the submit button on hover */
+button[type="submit"]:hover {
+    background-color: #ff3385;
+}
+

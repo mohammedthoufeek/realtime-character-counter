@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech App</title>
+    <link rel="stylesheet" href="read.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Realtime Character Counter</div>
+        <ul class="nav-list">
+            <li><a href="../textcount/main.html">Text to count</a></li>
+            <li><a href="../filecount/upload.html">File to count</a></li>
+            <li><a href="./read.html">Text to speech</a></li>
+        </ul>
+        <a class="logout-button" href="../index.html">Logout</a>
+    </nav>
+
+
+
+    <div class="container">
+        <h1>Text-to-Speech App</h1>
+        <textarea id="textInput" rows="10" cols="50"></textarea>
+        <label for="fileInput">Upload a File</label>
+        <input type="file" id="fileInput" accept=".txt , .pdf , .docx">
+        <br>
+        <div id="output"></div>
+        <button id="readButton">Read Text</button>
+        <button id="stopButton">Stop</button>
+    </div>
+    
+    <script src="read.js"></script>
+</body>
+</html>
